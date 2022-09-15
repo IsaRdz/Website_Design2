@@ -28,7 +28,9 @@
     color: white;
     border: 1px solid black;
     box-shadow: 4px 2px 1px grey;
-    border: 1px solid black;
+    border: 1.5px solid black;
+    position: relative;
+    top: -20px;
 }
 
 .menu a:focus{
@@ -69,4 +71,5 @@ p{
     padding-left: 2vw;
     padding-bottom: 3vh;
     padding-right: 2vw;
+    text-indent: 20px;
 }
