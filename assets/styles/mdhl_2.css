@@ -1,109 +1,148 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Patrick Hand', cursive;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Patrick Hand", cursive;
 }
-.main-title{
-    font-size: 2vw;
-    font-weight: bold;
+.mdhl-title {
+  font-size: 1.5vw;
+  font-weight: bold;
 }
-.menu{
-    max-width: 100vw;
-    height: 30vh;
-    background-image: url("../img/design1_image2.jpg");
-    background-position-y: 25%;
-    background-size: cover;
-    display: flex;
-    justify-content: flex-end;
+.menu {
+  max-width: 100vw;
+  height: 30vh;
+  background-image: url("../img/design1_image2.jpg");
+  background-position-y: 25%;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
 }
-.menu a{
-    margin-right: 2vw;
-    padding: 10px;
-    height: 40px;
-    text-decoration: none;
-    background-color: blue;
-    color: white;
-    box-shadow: 4px 2px 1px grey;
-    border: 1.5px solid black;
-    position: relative;
-    top: -20px;
+.menu a {
+  margin-right: 2vw;
+  padding: 10px;
+  height: 40px;
+  text-decoration: none;
+  background-color: blue;
+  color: white;
+  box-shadow: 4px 2px 1px grey;
+  border: 1.5px solid black;
+  position: relative;
+  top: -20px;
 }
-.menu a:active{
-    background-color: green;
+.menu a:active {
+  background-color: green;
 }
-.title{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    color: white;
-    text-align: center;
-    font-weight: bold;
-    height: 8vh;
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  height: 8vh;
 }
-.logo{
-    width: 10vw;
-    align-self: center;
+.logo {
+  width: 10vw;
 }
-.logo img{
-    max-width: 20vw;
-    max-height: 20vh;
+.logo img {
+  max-width: 20vw;
+  max-height: 20vh;
 }
-.container{
-    display: flex;
-    margin: 4vw;
+.container {
+  display: flex;
+  margin: 4vw;
 }
-.content{
-    padding-left: 5vw;
-    width: 80%;
+.content {
+  padding-left: 5vw;
+  width: 80%;
 }
-p{
-    padding-bottom: 3vh;
-    padding-right: 2vw;
-    text-indent: 30px;
-}
-
-
-.title-rules{
-    text-align: center;
-}
-.title-ihf-field{
-    padding-top: 2vh;
-}
-.rules > h3{
-    margin-bottom: 2vh;
-    margin-top: 1vh;
-}
-.p-indent{
-    text-indent: 30px;
-    padding-bottom: 0;
-}
-.p-rules{
-    display: inline;
-}
-span{
-    font-weight: bold;
-    display: inline;
-}
-ol li{
-    list-style-position: inside;
-    margin-bottom: 2vh;
+p {
+  padding-bottom: 3vh;
+  padding-right: 2vw;
+  text-indent: 30px;
 }
 
-ul{
-    margin-left: 50px;
-    padding-left: 0;
-    list-style-type: circle;
-    list-style-position: inside;
+.title-main {
+  text-align: center;
 }
-.list-lowerlatin{
-    list-style-type: lower-latin;
-    margin-bottom: 2vh;
+.title-ihf-field {
+  padding-top: 2vh;
 }
-.list-lowerlatin > li{
-    margin-bottom: 0;
+.rules > h3 {
+  margin-bottom: 2vh;
+  margin-top: 1vh;
 }
-section{
-    margin-bottom: 8vh;
+.p-indent {
+  text-indent: 30px;
+  padding-bottom: 0;
+}
+.p-rules {
+  display: inline;
+}
+span {
+  font-weight: bold;
+  display: inline;
+}
+ol li {
+  list-style-position: inside;
+  margin-bottom: 2vh;
+}
+
+ul {
+  margin-left: 50px;
+  padding-left: 0;
+  list-style-type: circle;
+  list-style-position: inside;
+}
+.list-lowerlatin {
+  list-style-type: lower-latin;
+  margin-bottom: 2vh;
+}
+.list-lowerlatin > li {
+  margin-bottom: 0;
+}
+section {
+  margin-bottom: 8vh;
+}
+
+.subtitle {
+  margin-top: 2vh;
+  font-style: italic;
+}
+
+.underline {
+  font-style: italic;
+  text-decoration-line: underline;
+  text-decoration-color: black;
+  margin-bottom: 2vh;
+}
+.information {
+  padding-top: 5vh;
+}
+.contact {
+  display: flex;
+  justify-content: space-between;
+}
+.information > p {
+  padding-bottom: 1vh;
+}
+.contact-name {
+  padding-top: 2vh;
+}
+
+table {
+  width: 60%;
+  margin: 0 auto;
+}
+th {
+  text-align: start;
+}
+th,
+td {
+  padding-top: 0.5vh;
+  padding-bottom: 0.5vh;
+}
+.day {
+  text-align: center;
 }
