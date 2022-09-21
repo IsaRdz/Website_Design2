@@ -29,7 +29,7 @@
     position: relative;
     top: -20px;
 }
-.menu a:focus{
+.menu a:active{
     background-color: green;
 }
 .title{
@@ -44,6 +44,7 @@
 }
 .logo{
     width: 10vw;
+    align-self: center;
 }
 .logo img{
     max-width: 20vw;
@@ -58,8 +59,51 @@
     width: 100%;
 }
 p{
-    padding-left: 2vw;
     padding-bottom: 3vh;
     padding-right: 2vw;
-    text-indent: 20px;
+    text-indent: 30px;
+}
+
+
+.title-rules{
+    text-align: center;
+}
+.title-ihf-field{
+    padding-top: 2vh;
+}
+.rules > h3{
+    margin-bottom: 2vh;
+    margin-top: 1vh;
+}
+.p-indent{
+    text-indent: 30px;
+    padding-bottom: 0;
+}
+.p-rules{
+    display: inline;
+}
+span{
+    font-weight: bold;
+    display: inline;
+}
+ol li{
+    list-style-position: inside;
+    margin-bottom: 2vh;
+}
+
+ul{
+    margin-left: 50px;
+    padding-left: 0;
+    list-style-type: circle;
+    list-style-position: inside;
+}
+.list-lowerlatin{
+    list-style-type: lower-latin;
+    margin-bottom: 2vh;
+}
+.list-lowerlatin > li{
+    margin-bottom: 0;
+}
+section{
+    margin-bottom: 8vh;
 }
