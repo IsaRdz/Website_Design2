@@ -32,6 +32,9 @@
 .menu a:active {
   background-color: green;
 }
+a.active{
+  background-color: green;
+}
 .title {
   display: flex;
   justify-content: center;
