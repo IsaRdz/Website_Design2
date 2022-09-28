@@ -32,7 +32,7 @@
 .menu a:active {
   background-color: green;
 }
-a.active{
+a.active {
   background-color: green;
 }
 .title {
@@ -148,4 +148,48 @@ td {
 }
 .day {
   text-align: center;
+}
+
+form { 
+  margin: 5vw;
+}
+
+.container-personal-data{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 15px;
+  grid-auto-columns: auto;
+}
+
+.container-third-field, .container-eighth-field, .label-school{
+  grid-column-start: 1;
+  grid-column-end: span 2;
+}
+
+.container-third-field > input,
+.container-signature > input{
+width: 80%;
+}
+.container-first-field > input, 
+.container-second-field > input,
+.container-fourth-field > input,
+.container-fifth-field > input
+{
+width: 30vw;
+}
+
+.container-eighth-field{
+  align-content: space-between;
+}
+
+.container-school, .container-positions, .container-uniform{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 15px;
+  grid-auto-columns: auto;
+}
+
+.container-signature{
+  display: grid;
+  grid-template-columns: 80%;
 }
