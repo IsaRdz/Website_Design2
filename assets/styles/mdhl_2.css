@@ -151,7 +151,10 @@ td {
 }
 
 form { 
-  margin: 5vw;
+  margin: 0 auto;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 5%;
 }
 
 .container-personal-data{
@@ -168,28 +171,69 @@ form {
 
 .container-third-field > input,
 .container-signature > input{
-width: 80%;
+width: 71%;
+border: none;
+border-bottom: 1px solid;
 }
 .container-first-field > input, 
 .container-second-field > input,
 .container-fourth-field > input,
-.container-fifth-field > input
+.container-fifth-field > input,
+.container-sixth-field > input,
+.container-signature > label > input 
 {
-width: 30vw;
+width: 15vw;
+border: none;
+border-bottom: 1px solid;
+
+}
+
+.container-sixth-field > input,
+.container-signature > label > input
+{
+  text-align: center;
 }
 
 .container-eighth-field{
-  align-content: space-between;
+  margin-top: 1vh;
 }
 
-.container-school, .container-positions, .container-uniform{
+.container-school, 
+.container-positions, 
+.container-uniform{
   display: grid;
   grid-template-columns: 50% 50%;
   grid-gap: 15px;
   grid-auto-columns: auto;
 }
 
+.container-eighth-field > input{
+  margin-left: 1.5vw;
+}
+
 .container-signature{
   display: grid;
   grid-template-columns: 80%;
+  grid-gap: 15px;
+}
+
+.container-signature > input{
+  border: none;
+  border-bottom: 1px solid;
+}
+.p-registration{
+  padding-top: 1vh;
+  text-indent: 0px;
+}
+
+form > h3{
+  padding-bottom: 2vh;
+}
+
+button{
+  padding: 3px 7px 3px 7px;
+  margin: 0 auto;
+  display: flex;
+  color: whitesmoke;
+  background-color: blue;
 }

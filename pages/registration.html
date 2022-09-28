@@ -24,7 +24,7 @@
     <div class="title">
       <h2>Registration Form</h2>
     </div>
-    <form action="">
+    <form action="../show_data.html" method="get">
       <section class="container-personal-data">
         <div class="container-first-field">
           <label for="name">Player's First Name:</label>
@@ -33,8 +33,7 @@
             id="name"
             name="name"
             required
-            placeholder="Please, insert player's first name"
-          />
+             />
         </div>
         <div class="container-second-field">
           <label for="last-name">Las Name:</label>
@@ -43,8 +42,7 @@
             name="last-name"
             id="last-name"
             required
-            placeholder="Please, insert player's last name"
-          />
+            />
         </div>
         <div class="container-third-field">
           <label for="address">Street Address:</label>
@@ -53,8 +51,7 @@
             name="address"
             id="address"
             required
-            placeholder="Please, insert player's Street Address"
-          />
+           />
         </div>
         <div class="container-fourth-field">
           <label for="city">City:</label>
@@ -63,8 +60,7 @@
             name="city"
             id="city"
             required
-            placeholder="Please, insert player's city"
-          />
+            />
         </div>
         <div class="container-fifth-field">
           <label for="zip-code">Zipe Code:</label>
@@ -73,7 +69,6 @@
             name="zip-code"
             id="zip-code"
             required
-            placeholder="Please, insert player's zip code"
             pattern="{4}"
           />
         </div>
@@ -84,12 +79,11 @@
             name="birth-date"
             id="birth-date"
             required
-            placeholder="Please, insert player's birth date"
             pattern="[1-31]{2}/[1-12]{2}/[1900-2022]{4}"
           />
         </div>
         <div class="container-seventh-field">
-          <label for="gender">Gender</label>
+          <label for="gender">Gender:</label>
           <input type="radio" name="gender" id="gender" required />Female
           <input type="radio" name="gender" id="gender" required />Male
           <input type="radio" name="gender" id="gender" required />Not
@@ -98,11 +92,11 @@
         <div class="container-eighth-field">
           <label for="grade">Grade:</label>
           <input type="radio" name="grade" id="grade-pre" required />Pre-School
-          <input type="radio" name="grade" id="grade-1" required />1st
-          <input type="radio" name="grade" id="grade-2" required />2st
-          <input type="radio" name="grade" id="grade-3" required />3st
-          <input type="radio" name="grade" id="grade-4" required />4st
-          <input type="radio" name="grade" id="grade-5" required />5st
+          <input type="radio" name="grade" id="grade-1" required /><sup> 1st </sup>
+          <input type="radio" name="grade" id="grade-2" required /><sup> 2nd </sup>
+          <input type="radio" name="grade" id="grade-3" required /><sup> 3rd </sup>
+          <input type="radio" name="grade" id="grade-4" required /><sup> 4th </sup>
+          <input type="radio" name="grade" id="grade-5" required /><sup> 5th </sup>
         </div>
       </section>
 
@@ -203,7 +197,7 @@
 
       <section class="container-permission">
         <h3>Permission to Play</h3>
-        <p>
+        <p class="p-registration">
           I, the parent or guardian of the minor registrant, agree that the
           registrant and I will abide by all the rules of the Mighty Ducks
           Hockey League (MDHL). In recognizing the possibility of physical
@@ -225,11 +219,11 @@
             name="firma"
             id="firma"
             required
-            placeholder="Please, insert your signature"
           /></label>
           <label for="date">Date:<input type="date" name="date" id="date" required /></label>
         </div>        
       </div>
+      <button type="submit">Enviar</button>
     </form>
   </body>
 </html>
